@@ -1,0 +1,10 @@
+import pandas as pd
+
+# Load the Excel file
+df = pd.read_excel("C:\\Users\\Arpan_PC\\Desktop\\Excel all project\\Copy of south kolkata cleaned6.xlsx", sheet_name='Sheet1')
+
+# Extract the 'error2' column as a list
+error2_values = df['error2'].tolist()
+
+# Print or save the list
+print(error2_values)
